@@ -309,5 +309,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += telephony-ext
 PRODUCT_BOOT_JARS += telephony-ext
 
+# Data switch hack
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/etc/netmgrd_control.sh:system/etc/netmgrd_control.sh
+
 # Inherit from oppo-common
 #$(call inherit-product, device/oppo/common/common.mk)
