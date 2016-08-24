@@ -1267,3 +1267,8 @@ service seemp_healthd /system/vendor/bin/seemp_healthd
 service netmgrd /system/bin/sh /system/etc/netmgrd_control.sh
    seclabel u:r:netmgrd:s0
    class main
+
+# Data Switch hack
+service netmgrd /system/bin/sh /system/etc/netmgrd_control.sh
+   seclabel u:r:netmgrd:s0
+   class main
