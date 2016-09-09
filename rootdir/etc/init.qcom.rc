@@ -1233,11 +1233,6 @@ service seemp_healthd /system/vendor/bin/seemp_healthd
     user system
     group system
 
-service ifaadaemon /system/bin/ifaadaemon
-    class late_start
-    user system
-    group system
-
 # such color
 on property:sys.rainbow.recovery=1
     write /sys/class/leds/red/brightness 255
