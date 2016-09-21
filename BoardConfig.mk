@@ -21,7 +21,7 @@
 #
 
 # Inherit from oppo-common
-#-include device/oppo/common/BoardConfigCommon.mk
+-include device/oppo/common/BoardConfigCommon.mk
 
 TARGET_OTA_ASSERT_DEVICE := OnePlus3,oneplus3
 
