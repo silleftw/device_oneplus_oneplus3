@@ -24,6 +24,7 @@ $(call inherit-product, vendor/tesla/config/nfc_enhanced.mk)
 
 # Inherit some common stuff.
 $(call inherit-product, vendor/tesla/config/common_full_phone.mk)
+$(call inherit-product, vendor/tesla/config/caf_fw.mk)
 
 PRODUCT_NAME := tesla_oneplus3
 PRODUCT_DEVICE := oneplus3
