@@ -55,6 +55,12 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/com.nxp.mifare.xml:system/etc/permissions/com.nxp.mifare.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:system/etc/permissions/handheld_core_hardware.xml
 
+# Audio configs
+PRODUCT_COPY_FILES += \
+    device/oneplus/oneplus3/prebuilts/audio_platform_info.xml:system/etc/audio_platform_info.xml \
+    device/oneplus/oneplus3/prebuilts/listen_platform_info.xml:system/etc/listen_platform_info.xml \
+    device/oneplus/oneplus3/prebuilts/mixer_paths_tasha.xml:system/etc/mixer_paths_tasha.xml
+
 # Device uses high-density artwork where available
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
